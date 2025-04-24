@@ -163,25 +163,64 @@ Essas características são avaliadas principalmente por **testes não funcionai
     - Exige manutenção constante.
     - Nem sempre adequado para testes criativos ou subjetivos.
 
+## 3. Técnicas de Teste
+
+### 1. O que são técnicas de caixa preta e quais exemplos você conhece?
+
+- **Definição:** Técnicas que se concentram no comportamento externo do sistema, sem considerar a estrutura interna do código.
+- **Objetivo:** Verificar se o sistema se comporta conforme as especificações.
+- **Exemplos:**
+  - Particionamento de Equivalência (EP)
+  - Análise de Valor Limite (BVA)
+  - Teste de Tabela de Decisão
+  - Teste de Transição de Estado
+  - Teste de Caso de Uso
+
 ---
 
+### 2. O que é particionamento de equivalência e como essa técnica ajuda no design de casos de teste?
 
+- **Definição:** Técnica que divide os dados de entrada em classes de equivalência, onde cada classe representa um comportamento semelhante.
+- **Objetivo:** Reduzir o número de testes cobrindo todos os cenários relevantes.
+- **Exemplo:** Para uma entrada válida entre 1 e 100:
+  - Classe válida: 50
+  - Classes inválidas: -5, 150
 
-### **3. Técnicas de Teste**
+---
 
-1. - **Caixa preta**: foco nas entradas/saídas (ex: testes funcionais, particionamento de equivalência).
-        
-    - Exemplos: particionamento, análise de valores-limite.
-        
-2. **Particionamento de equivalência** divide dados de entrada em classes onde o comportamento do sistema é o mesmo, reduzindo número de testes.
-    
-3. **Complexidade ciclomática** mede o número de caminhos independentes num código. Ajuda a definir o número mínimo de testes necessários para cobrir o fluxo lógico.
-    
-4. - **Caixa branca**: testa o código internamente (ex: cobertura de branches);
-        
-    - **Caixa preta**: testa as funcionalidades sem ver o código (ex: input/output esperados).
-        
-5. **Testes baseados em experiência** dependem da intuição e conhecimento prévio do testador. São úteis em sistemas novos ou mal documentados.
+### 3. O que é a complexidade ciclomática e como ela é usada para definir o número mínimo de testes?
+
+- **Definição:** Métrica quantitativa que mede a complexidade de um programa, baseada no número de caminhos lineares independentes.
+- **Fórmula:** `M = E - N + 2P`
+  - *E:* número de arestas no grafo
+  - *N:* número de nós
+  - *P:* número de componentes conectados
+- **Uso:** Ajuda a definir o número mínimo de casos de teste para garantir que cada caminho independente seja testado ao menos uma vez.
+
+---
+
+### 4. Descreva a diferença entre testes de caixa branca e caixa preta com exemplos.
+
+- **Caixa Preta**
+  - **Definição:** Testa o comportamento do sistema sem conhecimento interno.
+  - **Exemplo:** Testar se uma calculadora retorna o resultado correto ao somar 2 + 2.
+- **Caixa Branca**
+  - **Definição:** Testa a estrutura interna do código, incluindo fluxos de decisão.
+  - **Exemplo:** Verificar se todos os ramos de uma instrução `if-else` são executados.
+
+---
+
+### 5. O que são testes baseados em experiência e quando eles devem ser utilizados?
+
+- **Definição:** Técnica que usa o conhecimento, intuição e histórico do testador para encontrar defeitos.
+- **Exemplos:**
+  - Teste Exploratório
+  - Teste Baseado em Checklists
+  - Ataques de Teste (Test Attacks)
+- **Quando usar:**
+  - Quando há pouca documentação.
+  - Em sistemas críticos onde a experiência do testador pode encontrar problemas que testes sistemáticos não encontram.
+  - Para descobrir problemas ocultos ou inesperados.
 
 ---
 ### **4. Processo de Teste**
