@@ -58,4 +58,21 @@ Repositório para matéria de software
 
 ---
 
+### **3. Técnicas de Teste**
+
+1. - **Caixa preta**: foco nas entradas/saídas (ex: testes funcionais, particionamento de equivalência).
+        
+    - Exemplos: particionamento, análise de valores-limite.
+        
+2. **Particionamento de equivalência** divide dados de entrada em classes onde o comportamento do sistema é o mesmo, reduzindo número de testes.
+    
+3. **Complexidade ciclomática** mede o número de caminhos independentes num código. Ajuda a definir o número mínimo de testes necessários para cobrir o fluxo lógico.
+    
+4. - **Caixa branca**: testa o código internamente (ex: cobertura de branches);
+        
+    - **Caixa preta**: testa as funcionalidades sem ver o código (ex: input/output esperados).
+        
+5. **Testes baseados em experiência** dependem da intuição e conhecimento prévio do testador. São úteis em sistemas novos ou mal documentados.
+
+---
 
