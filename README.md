@@ -1,62 +1,94 @@
 # testes-de-software
 Repositório para matéria de software
 ---
-### **1. Fundamentos e Conceitos Gerais*
+# **1. Fundamentos e Conceitos Gerais*
+# Teste de Software
 
-1. **Teste de software** é o processo de avaliar e verificar se um software atende aos requisitos e está livre de defeitos. É essencial para garantir qualidade, evitar falhas em produção e aumentar a confiabilidade.
-    
-2. **Erro**: ato humano que gera um problema;  
-    **Defeito (bug)**: imperfeição no código causada por um erro;  
-    **Falha**: quando o defeito é executado e o software não se comporta como esperado.
-    
-3. **Sete princípios do teste (ISTQB)**:
-    
-    - Testes mostram a presença de defeitos
-        
-    - Testes exaustivos são impossíveis
-        
-    - Testes antecipados economizam tempo e dinheiro
-        
-    - Agrupamento de defeitos
-        
-    - O paradoxo do pesticida
-        
-    - Testes dependem do contexto
-        
-    - A ilusão de ausência de erros
-        
-4. Quanto **mais defeitos encontrados** durante os testes, **mais confiável tende a ser o software**, desde que os defeitos sejam corrigidos. A confiabilidade é a capacidade de operar sem falhas.
-    
-5. A **ISO/IEC 9126** define **atributos de qualidade** como: funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade.
+## 1. O que é teste de software e por que ele é considerado essencial no desenvolvimento de sistemas?
 
----
-### **2. Níveis e Tipos de Teste**
+O teste de software é uma forma de **controle de qualidade** que envolve a avaliação de produtos de trabalho de software por meio de:
 
-1. - **Unidade**: testam funções/métodos isolados (ex: testar a função de login);
-        
-    - **Integração**: testam módulos em conjunto (ex: integração entre frontend e backend);
-        
-    - **Sistema**: testam o sistema como um todo (ex: verificar fluxo completo de compra);
-        
-    - **Aceitação**: validados por usuários/clientes (ex: cliente verifica se o sistema atende aos requisitos).
-        
-2. - **Funcional**: verifica _o que_ o sistema faz (ex: login, cadastro);
-        
-    - **Não funcional**: verifica _como_ o sistema se comporta (ex: desempenho, segurança).
-        
-3. **Testes de regressão** garantem que novas alterações não quebrem funcionalidades existentes. São importantes após correções ou adição de novas funcionalidades.
-    
-4. Usam-se **testes exploratórios** quando não há muita documentação ou quando se quer descobrir erros através da criatividade e experiência do testador.
-    
-5. - **Automatizados**: rápidos e repetíveis (ex: testes com Selenium).  
-        _Vantagens_: consistência, velocidade.  
-        _Desvantagens_: custo de manutenção.
-        
-    - **Manuais**: feitos por humanos.  
-        _Vantagens_: flexibilidade, testes subjetivos.  
-        _Desvantagens_: mais lentos e suscetíveis a erros humanos.
+- Exame manual (revisões)
+- Ferramentas (análise estática)
+- Execução do software (teste dinâmico)
+
+### Objetivos do teste:
+- Melhoria da qualidade
+- Detecção de defeitos
+- Avaliação de características como:
+  - Legibilidade
+  - Integridade
+  - Correção
+  - Testabilidade
+  - Consistência
+
+### Importância:
+- Garante que o sistema funcione conforme esperado pelos stakeholders
+- Ajuda a atingir os objetivos dentro do escopo, tempo, qualidade e orçamento
+- Oferece uma representação indireta dos usuários no desenvolvimento
+- Pode ser necessário para requisitos contratuais, legais ou normas regulatórias
 
 ---
+
+## 2. Qual a diferença entre erro, defeito e falha no contexto de teste de software?
+
+- **Erro**: Ação humana que produz um resultado incorreto.
+- **Defeito (bug)**: Resultado de um erro que pode, se executado, causar uma falha.
+- **Falha**: Evento no qual um componente ou sistema não executa sua função dentro das tolerâncias especificadas.
+- **Causa-raiz**: Motivo fundamental para a ocorrência de um problema, levando a um erro.
+
+---
+
+## 3. Quais são os sete princípios fundamentais do teste de software de acordo com o ISTQB?
+
+1. **O teste mostra a presença, não a ausência de defeitos**  
+   Testes indicam que há defeitos, mas não garantem que não existam outros.
+
+2. **Testes exaustivos são impossíveis**  
+   Exceto em casos triviais, é inviável testar todas as combinações de entradas.
+
+3. **Testes devem começar cedo (early testing)**  
+   Quanto mais cedo no ciclo de vida, melhor. A abordagem "shift-left" é recomendada.
+
+4. **Agrupamento (clustering) de defeitos**  
+   Poucos módulos tendem a conter a maioria dos defeitos.
+
+5. **Paradoxo do pesticida**  
+   Testes repetidos perdem eficácia; é necessário revisar e criar novos testes.
+
+6. **Os testes dependem do contexto**  
+   A abordagem deve se adaptar ao tipo de sistema ou produto.
+
+7. **Falácia da ausência de defeitos**  
+   Um software sem defeitos ainda pode não atender às necessidades dos usuários ou aos objetivos do negócio.
+
+---
+
+## 4. Como o conceito de confiabilidade do software se relaciona com a quantidade de defeitos encontrados?
+
+- A **confiabilidade** é uma característica de qualidade **não funcional**.
+- **Testes não funcionais** avaliam atributos como confiabilidade.
+- Encontrar e corrigir defeitos contribui para **melhorar a confiabilidade** do software.
+- **Métricas de defeitos** (número de defeitos encontrados, densidade de defeitos, etc.) são usadas para rastrear a qualidade do produto.
+- Conclusão: embora não haja uma relação quantitativa direta explícita, **menos defeitos = maior confiabilidade**.
+
+---
+
+## 5. O que a norma ISO/IEC 9126 estabelece sobre os atributos de qualidade de software?
+
+- A norma **ISO/IEC 9126** não é mencionada diretamente nos materiais fornecidos.
+- No entanto, os materiais referem a norma **ISO 25010**, que atualiza e complementa a 9126.
+- Características de qualidade citadas:
+  - Adequação funcional
+  - Eficiência de performance
+  - Compatibilidade
+  - Usabilidade
+  - Confiabilidade
+  - Segurança
+  - Manutenibilidade
+  - Portabilidade
+
+Essas características são avaliadas principalmente por **testes não funcionais**.
 
 ### **3. Técnicas de Teste**
 
