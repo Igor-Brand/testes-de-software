@@ -223,21 +223,72 @@ Essas características são avaliadas principalmente por **testes não funcionai
   - Para descobrir problemas ocultos ou inesperados.
 
 ---
-### **4. Processo de Teste**
+## 4. Processo de Teste
 
-1. - Planejamento
-        
-    - Análise e design dos testes
-        
-    - Implementação
-        
-    - Execução
-        
-    - Avaliação dos critérios de saída
-        
-    - Encerramento dos testes
-        
-2. **Plano de testes**: define escopo, objetivos, recursos, cronograma, critérios de entrada/saída, riscos e estratégias de teste.
+### 1. Quais são as etapas típicas de um processo de teste completo, desde o planejamento até o encerramento?
+
+Um processo de teste típico é composto pelas seguintes etapas:
+
+1. **Planejamento de Teste:** Definição do escopo, objetivos, abordagem e cronograma.
+2. **Análise de Teste:** Análise dos requisitos para identificar condições de teste.
+3. **Projeto de Teste:** Criação dos casos de teste, critérios de entrada e saída.
+4. **Implementação e Execução:** Execução dos casos de teste, registro dos resultados.
+5. **Avaliação de Critérios de Saída:** Verificação se os critérios de término foram atendidos.
+6. **Encerramento de Teste:** Finalização da documentação, arquivamento e lições aprendidas.
+
+---
+
+### 2. O que é um plano de testes e quais informações ele deve conter?
+
+- **Definição:** Documento que descreve a estratégia, objetivos, cronograma e recursos necessários para o processo de teste.
+- **Deve conter:**
+  - Escopo e objetivos
+  - Itens a serem testados
+  - Estratégia de testes
+  - Critérios de entrada e saída
+  - Cronograma
+  - Recursos (ferramentas, pessoas, ambientes)
+  - Riscos e contingências
+  - Responsabilidades
+
+---
+
+### 3. Como funciona o ambiente de testes e por que ele deve ser isolado?
+
+- **Definição:** Conjunto de hardware, software, redes e ferramentas necessárias para realizar os testes.
+- **Deve ser isolado para:**
+  - Evitar interferência com sistemas de produção
+  - Garantir consistência e repetibilidade dos testes
+  - Permitir controle total do ambiente (dados, configurações, versões)
+- **Pode incluir:** bancos de dados específicos, servidores dedicados, ferramentas de automação, etc.
+
+---
+
+### 4. Qual o papel do engenheiro de testes dentro de um projeto ágil?
+
+- **Responsabilidades:**
+  - Colaborar com desenvolvedores e POs para definir critérios de aceitação
+  - Automatizar testes sempre que possível
+  - Garantir a qualidade contínua com testes frequentes
+  - Participar de reuniões de planejamento e retrospectiva
+  - Atuar como facilitador de qualidade em todo o ciclo de desenvolvimento
+- **Papel ativo:** o engenheiro de testes está envolvido desde o início e trabalha de forma contínua com a equipe.
+
+---
+
+### 5. Quais documentos de teste são definidos pela norma IEEE 829-1998?
+
+A norma IEEE 829-1998 define os seguintes documentos de teste:
+
+1. **Plano de Testes (Test Plan)**
+2. **Especificação de Caso de Teste (Test Case Specification)**
+3. **Especificação de Procedimento de Teste (Test Procedure Specification)**
+4. **Especificação de Item de Teste (Test Item Transmittal Report)**
+5. **Registro de Teste (Test Log)**
+6. **Relatório de Incidentes (Test Incident Report)**
+7. **Relatório de Sumário de Teste (Test Summary Report)**
+
+Cada documento tem um propósito específico no ciclo de vida do teste, promovendo padronização e rastreabilidade.
 
 ---
 
