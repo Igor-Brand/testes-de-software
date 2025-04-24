@@ -371,3 +371,66 @@ Cada documento tem um propósito específico no ciclo de vida do teste, promoven
 5. Em **projetos ágeis**, o engenheiro de testes atua de forma contínua, colaborando com desenvolvedores e POs, garantindo que requisitos estejam claros e testáveis desde o início.
     
 6. A **IEEE 829-1998** define documentos como: plano de teste, casos de teste, relatório de testes, logs de execução, relatório de incidentes, entre outros.
+
+---
+
+## 6. Testes Ágeis e Qualidade
+
+### 1. O que significa o termo “Test-Driven Development (TDD)” e como ele funciona?
+
+- **Test-Driven Development (TDD)** é uma técnica de desenvolvimento onde os testes são escritos antes mesmo do código de produção.
+- **Como funciona:**
+  1. **Escreve-se um teste:** O desenvolvedor cria um teste simples que falha, pois o código ainda não foi implementado.
+  2. **Escreve-se o código:** O desenvolvedor escreve o código mínimo necessário para fazer o teste passar.
+  3. **Refatora:** O código é melhorado, se necessário, mantendo os testes passando.
+  4. **Repete:** O ciclo é repetido para cada nova funcionalidade.
+
+TDD promove **alta cobertura de testes**, **código mais limpo** e **feedback rápido** sobre o comportamento do sistema.
+
+---
+
+### 2. Explique as diferenças entre verificação e validação no contexto dos testes.
+
+- **Verificação:** É o processo de garantir que o produto foi construído corretamente, ou seja, que **atende aos requisitos especificados**. A verificação responde à pergunta "Estamos construindo o produto certo?"
+  - **Exemplo:** Revisão de código, análise de requisitos, inspeções.
+  
+- **Validação:** É o processo de garantir que o produto correto foi construído, ou seja, que **atende às necessidades do cliente**. A validação responde à pergunta "Estamos construindo o produto da maneira certa?"
+  - **Exemplo:** Testes de aceitação, testes funcionais.
+
+---
+
+### 3. O que são critérios de aceitação e qual sua importância nos testes ágeis?
+
+- **Critérios de aceitação** são condições específicas que um produto ou funcionalidade deve cumprir para ser considerado pronto e aceito pelo cliente.
+  - São definidos em colaboração com o cliente ou stakeholder e descrevem claramente **o que é considerado uma entrega bem-sucedida**.
+  
+- **Importância nos testes ágeis:**
+  - **Garantem alinhamento** com as expectativas do cliente.
+  - Servem como base para **testes de aceitação**.
+  - Facilitam a **comunicação contínua** entre a equipe de desenvolvimento e os stakeholders.
+  - Permitem uma **avaliação objetiva** de quando uma funcionalidade está pronta.
+
+---
+
+### 4. Quais são as fases de execução de testes em uma abordagem ágil?
+
+1. **Planejamento do Sprint:** Definição dos requisitos e critérios de aceitação.
+2. **Desenvolvimento e Testes:** A equipe de desenvolvimento cria o código, enquanto os testes são executados ao longo do processo.
+3. **Testes de Aceitação:** Testes baseados nos critérios de aceitação definidos previamente, realizados pelos desenvolvedores ou testers.
+4. **Feedback Contínuo:** O feedback é fornecido rapidamente após a execução dos testes, permitindo ajustes imediatos no desenvolvimento.
+5. **Revisão do Sprint:** Análise dos resultados dos testes, validação da entrega e identificação de melhorias.
+
+---
+
+### 5. Como a adoção de ferramentas de testes automatizados pode contribuir para a qualidade do produto?
+
+- **Contribuições para a qualidade do produto:**
+  1. **Redução de erros humanos:** As ferramentas automatizadas reduzem a chance de falhas causadas por erros manuais.
+  2. **Execução contínua:** Testes podem ser executados rapidamente e com frequência, proporcionando **feedback imediato**.
+  3. **Cobertura de testes mais ampla:** Com a automação, é possível cobrir uma **maior quantidade de cenários** e casos de teste.
+  4. **Economia de tempo e custo:** Testes repetitivos são mais rápidos e menos dispendiosos quando automatizados.
+  5. **Facilidade de manutenção:** Os testes podem ser **atualizados e reutilizados** de maneira simples conforme o sistema evolui.
+  
+A automação melhora **a eficiência** dos testes e **a confiabilidade** do produto.
+
+---
