@@ -75,4 +75,24 @@ Repositório para matéria de software
 5. **Testes baseados em experiência** dependem da intuição e conhecimento prévio do testador. São úteis em sistemas novos ou mal documentados.
 
 ---
+### **4. Processo de Teste**
 
+1. - Planejamento
+        
+    - Análise e design dos testes
+        
+    - Implementação
+        
+    - Execução
+        
+    - Avaliação dos critérios de saída
+        
+    - Encerramento dos testes
+        
+2. **Plano de testes**: define escopo, objetivos, recursos, cronograma, critérios de entrada/saída, riscos e estratégias de teste.
+    
+3. O **ambiente de testes** simula o ambiente de produção e deve ser **isolado** para garantir resultados controlados e não impactar sistemas reais.
+    
+4. Em **projetos ágeis**, o engenheiro de testes atua de forma contínua, colaborando com desenvolvedores e POs, garantindo que requisitos estejam claros e testáveis desde o início.
+    
+5. A **IEEE 829-1998** define documentos como: plano de teste, casos de teste, relatório de testes, logs de execução, relatório de incidentes, entre outros.
