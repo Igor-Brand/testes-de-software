@@ -90,9 +90,32 @@ Repositório para matéria de software
     - Encerramento dos testes
         
 2. **Plano de testes**: define escopo, objetivos, recursos, cronograma, critérios de entrada/saída, riscos e estratégias de teste.
+
+---
+
+
+### **6. Testes Ágeis e Qualidade**
+
+1. **TDD (Test-Driven Development)**: escreve-se o teste antes do código. O ciclo é: escrever teste → escrever código → refatorar → repetir.
     
-3. O **ambiente de testes** simula o ambiente de produção e deve ser **isolado** para garantir resultados controlados e não impactar sistemas reais.
+2. - **Verificação**: verifica se o sistema foi construído corretamente;
+        
+    - **Validação**: verifica se o sistema certo foi construído (atende ao que o cliente quer).
+        
+3. **Critérios de aceitação** são condições que definem quando uma funcionalidade está pronta. Servem como base para testes em ambientes ágeis.
     
-4. Em **projetos ágeis**, o engenheiro de testes atua de forma contínua, colaborando com desenvolvedores e POs, garantindo que requisitos estejam claros e testáveis desde o início.
+4. - Planejamento de testes
+        
+    - Preparação do ambiente
+        
+    - Execução contínua (a cada sprint)
+        
+    - Feedback e melhoria contínua
+        
+5. **Automação** acelera testes de regressão, aumenta cobertura, reduz erros humanos e garante entregas mais rápidas e seguras.
     
-5. A **IEEE 829-1998** define documentos como: plano de teste, casos de teste, relatório de testes, logs de execução, relatório de incidentes, entre outros.
+4. O **ambiente de testes** simula o ambiente de produção e deve ser **isolado** para garantir resultados controlados e não impactar sistemas reais.
+    
+5. Em **projetos ágeis**, o engenheiro de testes atua de forma contínua, colaborando com desenvolvedores e POs, garantindo que requisitos estejam claros e testáveis desde o início.
+    
+6. A **IEEE 829-1998** define documentos como: plano de teste, casos de teste, relatório de testes, logs de execução, relatório de incidentes, entre outros.
