@@ -291,6 +291,59 @@ A norma IEEE 829-1998 define os seguintes documentos de teste:
 Cada documento tem um propósito específico no ciclo de vida do teste, promovendo padronização e rastreabilidade.
 
 ---
+## 5. Engenharia de Requisitos
+
+### 1. O que são requisitos funcionais e não funcionais? Dê exemplos reais.
+
+- **Requisitos Funcionais:** descrevem *o que o sistema deve fazer*. Exemplo:
+  - "O sistema deve permitir que o usuário realize login com e-mail e senha."
+  - "O sistema deve calcular o valor total de uma compra com base nos itens do carrinho."
+
+- **Requisitos Não Funcionais:** descrevem *como o sistema deve se comportar*. Exemplo:
+  - "A aplicação deve carregar a página inicial em no máximo 3 segundos."
+  - "O sistema deve estar disponível 24 horas por dia, 7 dias por semana."
+
+---
+
+### 2. O que são regras de negócio e como elas impactam os testes?
+
+- **Definição:** São políticas, restrições ou condições específicas do domínio do negócio que afetam como o sistema deve se comportar.
+- **Exemplo:** "Clientes com mais de 5 compras no mês recebem 10% de desconto."
+- **Impacto nos testes:**
+  - Os testes devem verificar se as regras estão corretamente implementadas.
+  - Casos de teste devem considerar todas as variações possíveis das regras.
+  - A complexidade das regras pode demandar testes mais elaborados e específicos.
+
+---
+
+### 3. Quais técnicas podem ser utilizadas para o levantamento de requisitos? Cite ao menos três.
+
+1. **Entrevistas:** Conversas estruturadas com stakeholders para entender as necessidades.
+2. **Workshops:** Sessões colaborativas com clientes e equipe técnica.
+3. **Observação direta:** Análise de como os usuários interagem com sistemas atuais.
+4. **Questionários:** Coleta de informações de um grupo maior de usuários.
+5. **Protótipos:** Criação de maquetes para validação rápida de ideias.
+
+---
+
+### 4. Por que é importante registrar toda comunicação entre analista, cliente e equipe de desenvolvimento?
+
+- Para garantir **clareza e rastreabilidade** das decisões.
+- Evita **mal-entendidos** e **requisitos ambíguos**.
+- Facilita o **gerenciamento de mudanças**.
+- Serve como base para **validação e testes** futuros.
+- Ajuda na documentação e histórico do projeto.
+
+---
+
+### 5. Qual a relação entre engenharia de requisitos e a definição de critérios de aceitação nos testes?
+
+- Os **critérios de aceitação** são definidos com base nos **requisitos funcionais e regras de negócio**.
+- Uma boa engenharia de requisitos fornece **informações claras e completas** que ajudam a criar critérios mensuráveis.
+- Permite que os testes sejam objetivos e verificáveis, garantindo que o sistema atenda às expectativas do cliente.
+- Serve como base para **testes de aceitação**, fundamentais no modelo ágil.
+
+---
 
 
 ### **6. Testes Ágeis e Qualidade**
