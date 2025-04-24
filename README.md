@@ -90,6 +90,83 @@ O teste de software é uma forma de **controle de qualidade** que envolve a aval
 
 Essas características são avaliadas principalmente por **testes não funcionais**.
 
+## 2. Níveis e Tipos de Teste
+
+### 1. Qual a diferença entre os testes de unidade, integração, sistema e aceitação? Dê um exemplo prático de cada.
+
+- **Teste de Unidade**
+  - **Definição:** Testa componentes isoladamente.
+  - **Responsável:** Desenvolvedor.
+  - **Exemplo:** Verificar se a função `calcularDesconto()` retorna o valor correto com diferentes entradas.
+
+- **Teste de Integração**
+  - **Definição:** Testa a comunicação entre componentes.
+  - **Exemplo:** Verificar se o módulo de login interage corretamente com o banco de dados de usuários.
+
+- **Teste de Sistema**
+  - **Definição:** Avalia o comportamento do sistema completo conforme os requisitos.
+  - **Exemplo:** Testar o processo completo de compra em um site de e-commerce (login → adicionar produto → pagamento).
+
+- **Teste de Aceitação**
+  - **Definição:** Verifica se o sistema atende às necessidades do usuário final.
+  - **Exemplo:** O cliente testa o sistema de agendamento de consultas para validar que ele atende às regras de negócio antes da entrega final.
+
+---
+
+### 2. O que diferencia um teste funcional de um teste não funcional?
+
+- **Teste Funcional**
+  - Avalia *o que* o sistema faz.
+  - Exemplo: Verificar se o botão "Enviar" de um formulário envia os dados corretamente.
+
+- **Teste Não Funcional**
+  - Avalia *como* o sistema se comporta.
+  - Exemplo: Medir se o sistema responde em menos de 2 segundos com 100 usuários simultâneos.
+
+---
+
+### 3. O que são testes de regressão e por que eles são importantes?
+
+- **Definição:** Testes realizados após modificações no sistema para garantir que funcionalidades existentes não foram quebradas.
+- **Importância:** Mantêm a estabilidade do sistema após correções de bugs, atualizações ou adição de novas funcionalidades.
+
+---
+
+### 4. Quando é apropriado aplicar testes exploratórios em um projeto?
+
+- Quando há poucas ou nenhuma especificação formal.
+- Quando há pouco tempo para testar.
+- Para complementar testes formais.
+- **Importante:** Mais eficaz com testadores experientes, criativos e com conhecimento do domínio.
+- **Característica:** O testador aprende, projeta e executa os testes ao mesmo tempo.
+
+---
+
+### 5. Explique a relação entre testes automatizados e testes manuais. Quais são as vantagens e desvantagens de cada abordagem?
+
+- **Teste Manual**
+  - **Vantagens:**
+    - Ideal para testes exploratórios, usabilidade e UI.
+    - Requer pouco tempo inicial para começar.
+  - **Desvantagens:**
+    - Mais lento.
+    - Sujeito a erros humanos.
+    - Pouco reutilizável.
+
+- **Teste Automatizado**
+  - **Vantagens:**
+    - Execução rápida e repetível.
+    - Boa cobertura de testes.
+    - Ideal para testes de regressão e grandes volumes.
+  - **Desvantagens:**
+    - Custo inicial elevado.
+    - Exige manutenção constante.
+    - Nem sempre adequado para testes criativos ou subjetivos.
+
+---
+
+
+
 ### **3. Técnicas de Teste**
 
 1. - **Caixa preta**: foco nas entradas/saídas (ex: testes funcionais, particionamento de equivalência).
